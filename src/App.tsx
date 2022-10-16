@@ -36,7 +36,9 @@ const App: React.FC = () => {
   console.log(completedTodos)
 
   return (
-    <DragDropContext onDragEnd={() => { }}>
+    <DragDropContext onDragEnd={() => {
+      setCompletedTodos(todoItem)
+    }}>
       <div className="App">
         <span className="taskify">
           Tasks.Ly

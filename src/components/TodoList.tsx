@@ -19,7 +19,7 @@ const TodoList: React.FC<Props> = ({
 }: Props) => {
   return (
     <div className="container">
-      <Droppable droppableId="active-todosId">
+      <Droppable droppableId="Active-todoId">
         {(provided) => (
           <div
             className="todos"
